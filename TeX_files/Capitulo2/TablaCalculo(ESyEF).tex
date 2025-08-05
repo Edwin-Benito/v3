@@ -1,0 +1,32 @@
+\subsection{Cálculos de ES y EF (Paso Hacia Adelante)}
+
+El "Paso Hacia Adelante" (Forward Pass) se utiliza para determinar la Fecha de Inicio Temprana (ES - Early Start) y la Fecha de Finalización Temprana (EF - Early Finish) para cada actividad, ahora en días hábiles (1 semana = 5 días).
+
+\begin{itemize}
+    \item \textbf{ES (Fecha de Inicio Temprana):} La fecha más temprana en que una actividad puede comenzar, asumiendo que todas sus predecesoras se han completado.
+    \item \textbf{EF (Fecha de Finalización Temprana):} La fecha más temprana en que una actividad puede terminar. Se calcula como $EF = ES + Duración$.
+\end{itemize}
+
+\begin{table}[htbp]
+  \centering
+  \caption{Cálculos de ES y EF (Paso Hacia Adelante)}
+  \renewcommand{\arraystretch}{1.3}
+  \setlength{\tabcolsep}{7pt}
+  \rowcolors{2}{gray!10}{white}
+  \begin{tabularx}{\linewidth}{>{\centering\arraybackslash}p{1.2cm} X >{\centering\arraybackslash}p{2.2cm} >{\centering\arraybackslash}p{2.2cm} >{\centering\arraybackslash}p{1.8cm} >{\centering\arraybackslash}p{1.8cm}}
+    \toprule
+    \rowcolor{gray!30} \textbf{ID} & \textbf{Actividad} & \textbf{Duración (Días)} & \textbf{Predecesoras} & \textbf{ES} & \textbf{EF} \\
+    \midrule
+    A & Análisis del Problema & 25 & -- & 0 & 25 \\
+    B & Recolección de Requerimientos & 20 & A & 25 & 45 \\
+    C & Diseño de Interfaz de Usuario & 30 & B & 45 & 75 \\
+    D & Revisión de Documentación & 10 & C & 75 & 85 \\
+    E & Pruebas Usabilidad & 10 & D & 85 & 95 \\
+    F & Validación de Entregables & 10 & D & 85 & 95 \\
+    G & Presentación del Proyecto & 10 & E, F & 95 & 105 \\
+    \bottomrule
+  \end{tabularx}
+  \vspace{0.7em}
+  \noindent\textbf{Duración Total del Proyecto (calculada con ES/EF):} El proyecto tiene una duración estimada de \textbf{17 semanas}.
+\noindent\textbf{Duración Total del Proyecto (calculada con ES/EF):} El proyecto tiene una duración estimada de \textbf{105 días hábiles}.
+\end{table}

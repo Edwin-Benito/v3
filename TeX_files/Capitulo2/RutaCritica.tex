@@ -1,0 +1,25 @@
+\section{Ruta Crítica del Proyecto}
+
+\subsection{Tabla de Actividades del Proyecto}
+Esta tabla desglosa las actividades principales del proyecto, sus duraciones estimadas en días y las dependencias entre ellas. Se considera que cada semana equivale a 5 días hábiles. Las dependencias indican qué actividades deben completarse antes de que otra pueda comenzar.
+
+\begin{table}[htbp]
+  \centering
+  \caption{Tabla de Actividades del Proyecto}
+  \renewcommand{\arraystretch}{1.3}
+  \setlength{\tabcolsep}{7pt}
+  \rowcolors{2}{gray!10}{white}
+  \begin{tabularx}{\linewidth}{>{\centering\arraybackslash}p{1.2cm} X >{\centering\arraybackslash}p{2.2cm} >{\centering\arraybackslash}p{2.2cm}}
+    \toprule
+    \rowcolor{gray!30} \textbf{ID} & \textbf{Actividad} & \textbf{Duración (Días)} & \textbf{Predecesoras} \\
+    \midrule
+    A & Análisis del Problema & 25 & -- \\
+    B & Recolección de Requerimientos & 20 & A \\
+    C & Diseño de Interfaz de Usuario & 30 & B \\
+    D & Revisión de Documentación & 10 & C \\
+    E & Pruebas Usabilidad & 10 & D \\
+    F & Validación de Entregables & 10 & D \\
+    G & Presentación del Proyecto & 10 & E, F \\
+    \bottomrule
+  \end{tabularx}
+\end{table}

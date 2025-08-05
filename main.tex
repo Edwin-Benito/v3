@@ -1,0 +1,125 @@
+\documentclass[a4paper]{book}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\usepackage[T1]{fontenc} 
+\usepackage[spanish]{babel}
+\usepackage{titlesec}
+\usepackage{geometry}
+\usepackage{float}
+\usepackage{verbatim}
+\usepackage{booktabs}
+\usepackage{colortbl}
+\usepackage[table]{xcolor}
+\usepackage{array}
+\usepackage{tabularx}
+\usepackage{hyperref}
+\usepackage{fancyhdr}
+\usepackage{lipsum}
+
+
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    urlcolor=blue,
+    filecolor=magenta,      
+    citecolor=blue,
+    pdftitle={SafeSight - Proyecto Argos},
+    pdfauthor={Edwin Benito Castillo Hernández, David de Jesús Hernández Hernández, Alfonso Oropeza Sangabriel, Erick Rivas Esquivel},
+    %bookmarks=true,
+    pdfpagemode=FullScreen,
+}
+
+\titleformat{\chapter}[display]
+  {\normalfont\huge\bfseries}{\chaptertitlename\ \thechapter}{20pt}{\Huge}
+\titlespacing*{\chapter}{0pt}{-30pt}{20pt}
+
+\let\cleardoublepage\clearpage
+
+\setcounter{secnumdepth}{3}
+\setcounter{tocdepth}{3}
+
+\begin{document}
+
+
+\input{TeX_files/Portada.tex}
+
+\frontmatter
+\tableofcontents
+
+\mainmatter
+\clearpage
+\input{TeX_files/Capitulo1/Capitulo1.tex}
+
+\input{TeX_files/Capitulo1/IdentificacionAnalisis.tex}
+
+%\clearpage
+\input{TeX_files/Capitulo1/Objetivos.tex}
+
+\clearpage
+\input{TeX_files/Capitulo1/NecesidadesTecnologicas.tex}
+
+\clearpage
+\input{TeX_files/Capitulo1/EvaluacionCondiciones.tex}
+
+\clearpage
+\input{TeX_files/Capitulo1/MetodoDelphi.tex}
+
+\clearpage
+\input{TeX_files/Capitulo1/VisionProyecto.tex}
+
+%\clearpage
+\input{TeX_files/Capitulo1/Alcance.tex}
+
+%\clearpage
+\input{TeX_files/Capitulo1/PublicoObjetivo.tex}
+
+\clearpage
+\input{TeX_files/Capitulo1/RecursosDisponibles.tex}
+
+%%==========================================================================================%
+
+\clearpage
+\input{TeX_files/Capitulo2/Capitulo2.tex}
+
+\input{TeX_files/Capitulo2/RolesPrincipales.tex}
+
+\clearpage
+\input{TeX_files/Capitulo2/DiagramaGantt.tex}
+
+\clearpage
+\input{TeX_files/Capitulo2/RutaCritica.tex}
+
+\clearpage
+\input{TeX_files/Capitulo2/TablaCalculo(ESyEF).tex}
+
+\clearpage
+\input{TeX_files/Capitulo2/TablaCalculo(LSyLF).tex}
+
+\clearpage
+\input{TeX_files/Capitulo2/TablaCalculoHolgura.tex}
+
+\clearpage
+\input{TeX_files/Capitulo2/MapaRutaCritica.tex}
+
+%%==========================================================================================%
+
+\clearpage
+\input{TeX_files/Capitulo3/Capitulo3.tex}
+
+\input{TeX_files/Capitulo3/RequerimientosF.tex}
+
+\clearpage
+\input{TeX_files/Capitulo3/NecesidadesUsuario.tex}
+
+\clearpage
+\input{TeX_files/Capitulo3/Normativas.tex}
+
+%%==========================================================================================%
+%
+%\clearpage
+%\input{TeX_files/Capitulo4/Capitulo4.tex}
+
+\backmatter
+% bibliography, glossary and index would go here.
+
+\end{document}

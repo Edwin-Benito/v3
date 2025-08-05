@@ -1,0 +1,33 @@
+\subsection{Cálculo de Holgura y Ruta Crítica}
+
+La holgura (también conocida como flotación o margen) es la cantidad de tiempo que una actividad puede retrasarse sin afectar la fecha de finalización del proyecto. Se calcula como $Holgura = LS - ES$ o $Holgura = LF - EF$, ahora en días hábiles (1 semana = 5 días).
+
+Las actividades con holgura cero son las que forman la Ruta Crítica. Un retraso en cualquiera de estas actividades impactará directamente en la fecha de finalización de todo el proyecto.
+
+\begin{table}[htbp]
+  \centering
+  \caption{Cálculo de Holgura y Ruta Crítica}
+  \renewcommand{\arraystretch}{1.3}
+  \setlength{\tabcolsep}{6pt}
+  \rowcolors{2}{gray!10}{white}
+  \begin{tabularx}{\linewidth}{>{\centering\arraybackslash}p{1.2cm} X >{\centering\arraybackslash}p{1.2cm} >{\centering\arraybackslash}p{1.2cm} >{\centering\arraybackslash}p{1.2cm} >{\centering\arraybackslash}p{1.2cm} >{\centering\arraybackslash}p{1.5cm} >{\centering\arraybackslash}p{2.2cm}}
+    \toprule
+    \rowcolor{gray!30} \textbf{ID} & \textbf{Actividad} & \textbf{ES} & \textbf{EF} & \textbf{LS} & \textbf{LF} & \textbf{Holgura} & \textbf{¿En Ruta Crítica?} \\
+    \midrule
+    A & Análisis del Problema & 0 & 25 & 0 & 25 & 0 & Sí \\
+    B & Recolección de Requerimientos & 25 & 45 & 25 & 45 & 0 & Sí \\
+    C & Diseño de Interfaz de Usuario & 45 & 75 & 45 & 75 & 0 & Sí \\
+    D & Revisión de Documentación & 75 & 85 & 75 & 85 & 0 & Sí \\
+    E & Pruebas Usabilidad & 85 & 95 & 85 & 95 & 0 & Sí \\
+    F & Validación de Entregables & 85 & 95 & 85 & 95 & 0 & Sí \\
+    G & Presentación del Proyecto & 95 & 105 & 95 & 105 & 0 & Sí \\
+    \bottomrule
+  \end{tabularx}
+  \vspace{0.7em}
+  \noindent\textbf{Ruta Crítica del Proyecto:} Todas las actividades tienen holgura cero, por lo que todas son críticas. Cualquier retraso impacta la fecha de finalización.
+
+  \noindent\textbf{Ruta Crítica:} A $\rightarrow$ B $\rightarrow$ C $\rightarrow$ D $\rightarrow$ E $\rightarrow$ G y A $\rightarrow$ B $\rightarrow$ C $\rightarrow$ D $\rightarrow$ F $\rightarrow$ G.
+
+  \noindent\textbf{Duración Total del Proyecto:} 17 semanas.
+\noindent\textbf{Duración Total del Proyecto:} 105 días hábiles.
+\end{table}
