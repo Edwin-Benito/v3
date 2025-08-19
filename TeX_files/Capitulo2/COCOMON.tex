@@ -1,0 +1,68 @@
+\section{Análisis de Costos y Esfuerzo (Método COCOMO)}
+
+Para estimar el esfuerzo y el tiempo del proyecto \textit{Argos}, hemos utilizado el modelo COCOMO (Modelo Constructivo de Costos) en su versión intermedia. Este método se basa en el tamaño del software y en una serie de factores de costo para generar una estimación realista.
+
+\subsection{Estimación del Tamaño del Software (KLOC)}
+Debido a que el proyecto se encuentra en una etapa de planeación, el tamaño del software se ha estimado en *25,000 líneas de código (25 KLOC)*. Esta cifra se considera apropiada para una solución integral que incluye un sistema de reconocimiento facial, una aplicación móvil, una página web y la infraestructura de base de datos para el almacenamiento seguro de la información.
+
+\subsection{Cálculo del Esfuerzo y Tiempo del Proyecto}
+El modelo COCOMO intermedio se basa en dos ecuaciones principales:
+\begin{itemize}
+    \item *Esfuerzo (E):* Se mide en persona-mes.
+    $E = a \times (\mathrm{KLOC})^{b} \times \mathrm{EAF}$
+    \item *Tiempo de Desarrollo (TDEV):* Se mide en meses.
+    $TDEV = c \times (\mathrm{E})^{d}$
+\end{itemize}
+Para un proyecto de tipo \textbf{semi-independiente} (considerando la naturaleza del proyecto que combina elementos de innovación con requisitos bien definidos), los coeficientes son: $a=3.0$, $b=1.12$, $c=2.5$ y $d=0.35$.
+
+\subsubsection{Factores de Costo (EAF - \textit{Effort Adjustment Factor})}
+Hemos asignado valores a los factores de costo (EAF) con base en la información del proyecto y sus características.
+
+\begin{enumerate}
+    \item \textbf{Atributos del Producto}
+    \begin{itemize}
+        \item Fiabilidad requerida del software (\textit{RELY}): 1.15 (Alta)
+        \item Tamaño de la base de datos (\textit{DATA}): 1.00 (Nominal)
+        \item Complejidad del producto (\textit{CPLX}): 1.29 (Muy Alta)
+    \end{itemize}
+    \item \textbf{Atributos del Hardware}
+    \begin{itemize}
+        \item Restricciones de tiempo de ejecución (\textit{TIME}): 1.00 (Nominal)
+        \item Restricciones de memoria principal (\textit{STOR}): 1.00 (Nominal)
+        \item Volatilidad del entorno de la máquina virtual (\textit{VIRT}): 0.94 (Baja)
+        \item Tiempo de respuesta del sistema (\textit{TURN}): 1.07 (Alta)
+    \end{itemize}
+    \item \textbf{Atributos del Personal}
+    \begin{itemize}
+        \item Capacidad del analista (\textit{ACAP}): 1.00 (Nominal)
+        \item Experiencia en la aplicación (\textit{AEXP}): 1.00 (Nominal)
+        \item Capacidad del programador (\textit{PCAP}): 1.00 (Nominal)
+        \item Experiencia en la máquina virtual (\textit{VEXP}): 1.00 (Nominal)
+        \item Experiencia en el lenguaje de programación (\textit{LEXP}): 1.00 (Nominal)
+    \end{itemize}
+    \item \textbf{Atributos del Proyecto}
+    \begin{itemize}
+        \item Uso de herramientas de software (\textit{TOOL}): 1.00 (Nominal)
+        \item Cumplimiento de plazos del proyecto (\textit{SCED}): 1.11 (Alta)
+    \end{itemize}
+\end{enumerate}
+
+El \textbf{EAF} se calcula multiplicando todos estos factores de costo:
+$EAF = 1.15 \times 1.00 \times 1.29 \times 1.00 \times 1.00 \times 0.94 \times 1.07 \times 1.00 \times 1.00 \times 1.00 \times 1.00 \times 1.00 \times 1.00 \times 1.11 \approx 1.83$
+ 3. Resultados del Cálculo
+Aplicando las fórmulas con los valores estimados, obtenemos:
+\begin{itemize}
+    \item \textbf{Cálculo del Esfuerzo (E):}
+    $E = 3.0 \times \left(25\right)^{1.12} \times 1.83 \approx 199.1$ persona-mes.
+    \item \textbf{Cálculo del Tiempo de Desarrollo (TDEV):}
+    $TDEV = 2.5 \times \left(199.1\right)^{0.35} \approx 18.2$ meses.
+\end{itemize}
+
+4. Conclusiones
+Los resultados del modelo COCOMO intermedio indican que el proyecto \textit{Argos} requerirá:
+\begin{itemize}
+    \item Un \textbf{esfuerzo total} de aproximadamente \textbf{199.1 persona-mes}.
+    \item Un \textbf{tiempo de desarrollo} de \textbf{18.2 meses}.
+    \item Un \textbf{equipo promedio} de $\frac{199.1\ \mathrm{persona-mes}}{18.2\ \mathrm{meses}} \approx 11$ personas.
+\end{itemize}
+Esta estimación valida la complejidad y el alcance del proyecto, demostrando que para su correcta ejecución se necesita un equipo de desarrollo más grande y un cronograma más extenso que el planteado en el Diagrama de Gantt inicial. La duración de 105 días hábiles (aproximadamente 5 meses) mencionada en la planeación se enfoca en las primeras etapas de análisis y diseño, no en la implementación completa del sistema.

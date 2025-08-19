@@ -50,6 +50,16 @@ INPUT C:\Program Files\MiKTeX\tex\generic\iftex\iftex.sty
 INPUT C:\Users\edwin\AppData\Roaming\MiKTeX\tex\latex\geometry\geometry.cfg
 INPUT C:\Users\edwin\AppData\Roaming\MiKTeX\tex\latex\geometry\geometry.cfg
 INPUT C:\Users\edwin\AppData\Roaming\MiKTeX\tex\latex\geometry\geometry.cfg
+INPUT C:\Program Files\MiKTeX\tex\latex\amsmath\amsmath.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\amsmath\amsmath.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\amsmath\amsopn.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\amsmath\amstext.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\amsmath\amstext.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\amsmath\amsgen.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\amsmath\amsgen.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\amsmath\amsbsy.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\amsmath\amsbsy.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\amsmath\amsopn.sty
 INPUT C:\Users\edwin\AppData\Roaming\MiKTeX\tex\latex\float\float.sty
 INPUT C:\Users\edwin\AppData\Roaming\MiKTeX\tex\latex\float\float.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\tools\verbatim.sty
@@ -161,13 +171,13 @@ OUTPUT main.out
 INPUT .\TeX_files\Portada.tex
 INPUT .\TeX_files\Portada.tex
 INPUT TeX_files\Portada.tex
-INPUT .\logo_upp.jpg
-INPUT .\logo_upp.jpg
-INPUT .\logo_upp.jpg
-INPUT .\logo_upp.jpg
-INPUT .\logo_upp.jpg
-INPUT .\logo_upp.jpg
-INPUT .\logo_upp.jpg
+INPUT .\Media\logo_upp.jpg
+INPUT .\Media\logo_upp.jpg
+INPUT .\Media\logo_upp.jpg
+INPUT .\Media\logo_upp.jpg
+INPUT .\Media\logo_upp.jpg
+INPUT .\Media\logo_upp.jpg
+INPUT .\Media\logo_upp.jpg
 INPUT C:\Program Files\MiKTeX\fonts\tfm\jknappen\ec\ecrm2488.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\jknappen\ec\ecbx2488.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\jknappen\ec\ecrm1440.tfm
@@ -181,8 +191,12 @@ INPUT .\main.toc
 INPUT .\main.toc
 INPUT main.toc
 INPUT C:\Program Files\MiKTeX\fonts\tfm\jknappen\ec\ecbx1000.tfm
-OUTPUT main.toc
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\jknappen\ec\ecti1000.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\jknappen\ec\eccc1000.tfm
+OUTPUT main.toc
+INPUT C:\Program Files\MiKTeX\fonts\tfm\jknappen\ec\ecsl1000.tfm
 INPUT .\TeX_files\Capitulo1\Capitulo1.tex
 INPUT .\TeX_files\Capitulo1\Capitulo1.tex
 INPUT TeX_files\Capitulo1\Capitulo1.tex
@@ -195,27 +209,26 @@ INPUT TeX_files\Capitulo1\Objetivos.tex
 INPUT .\TeX_files\Capitulo1\NecesidadesTecnologicas.tex
 INPUT .\TeX_files\Capitulo1\NecesidadesTecnologicas.tex
 INPUT TeX_files\Capitulo1\NecesidadesTecnologicas.tex
-INPUT .\mapa .jpg
-INPUT .\mapa .jpg
-INPUT .\mapa .jpg
-INPUT .\mapa .jpg
-INPUT .\mapa .jpg
-INPUT .\mapa .jpg
-INPUT .\mapa .jpg
-INPUT C:\Program Files\MiKTeX\fonts\tfm\jknappen\ec\ecsl1000.tfm
+INPUT .\Media\mapaArgos.jpg
+INPUT .\Media\mapaArgos.jpg
+INPUT .\Media\mapaArgos.jpg
+INPUT .\Media\mapaArgos.jpg
+INPUT .\Media\mapaArgos.jpg
+INPUT .\Media\mapaArgos.jpg
+INPUT .\Media\mapaArgos.jpg
 INPUT .\TeX_files\Capitulo1\EvaluacionCondiciones.tex
 INPUT .\TeX_files\Capitulo1\EvaluacionCondiciones.tex
 INPUT TeX_files\Capitulo1\EvaluacionCondiciones.tex
 INPUT .\TeX_files\Capitulo1\MetodoDelphi.tex
 INPUT .\TeX_files\Capitulo1\MetodoDelphi.tex
 INPUT TeX_files\Capitulo1\MetodoDelphi.tex
-INPUT .\Delphi.png
-INPUT .\Delphi.png
-INPUT .\Delphi.png
-INPUT .\Delphi.png
-INPUT .\Delphi.png
-INPUT .\Delphi.png
-INPUT .\Delphi.png
+INPUT .\Media\Delphi.png
+INPUT .\Media\Delphi.png
+INPUT .\Media\Delphi.png
+INPUT .\Media\Delphi.png
+INPUT .\Media\Delphi.png
+INPUT .\Media\Delphi.png
+INPUT .\Media\Delphi.png
 INPUT .\TeX_files\Capitulo1\VisionProyecto.tex
 INPUT .\TeX_files\Capitulo1\VisionProyecto.tex
 INPUT TeX_files\Capitulo1\VisionProyecto.tex
@@ -235,6 +248,8 @@ INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmmi8.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmmi6.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmsy8.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmsy6.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmex8.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\jknappen\ec\ecbx0800.tfm
 INPUT .\TeX_files\Capitulo2\Capitulo2.tex
 INPUT .\TeX_files\Capitulo2\Capitulo2.tex
@@ -262,13 +277,22 @@ INPUT TeX_files\Capitulo2\TablaCalculoHolgura.tex
 INPUT .\TeX_files\Capitulo2\MapaRutaCritica.tex
 INPUT .\TeX_files\Capitulo2\MapaRutaCritica.tex
 INPUT TeX_files\Capitulo2\MapaRutaCritica.tex
-INPUT .\Ruta Critica V2.png
-INPUT .\Ruta Critica V2.png
-INPUT .\Ruta Critica V2.png
-INPUT .\Ruta Critica V2.png
-INPUT .\Ruta Critica V2.png
-INPUT .\Ruta Critica V2.png
-INPUT .\Ruta Critica V2.png
+INPUT .\Media\Ruta Critica V3.png
+INPUT .\Media\Ruta Critica V3.png
+INPUT .\Media\Ruta Critica V3.png
+INPUT .\Media\Ruta Critica V3.png
+INPUT .\Media\Ruta Critica V3.png
+INPUT .\Media\Ruta Critica V3.png
+INPUT .\Media\Ruta Critica V3.png
+INPUT .\TeX_files\Capitulo2\EstimacionCostos.tex
+INPUT .\TeX_files\Capitulo2\EstimacionCostos.tex
+INPUT TeX_files\Capitulo2\EstimacionCostos.tex
+INPUT C:\Program Files\MiKTeX\fonts\tfm\jknappen\ec\ecrm0700.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\jknappen\ec\ecrm0500.tfm
+INPUT .\TeX_files\Capitulo2\COCOMON.tex
+INPUT .\TeX_files\Capitulo2\COCOMON.tex
+INPUT TeX_files\Capitulo2\COCOMON.tex
+INPUT C:\Program Files\MiKTeX\fonts\tfm\jknappen\ec\ecbi1000.tfm
 INPUT .\TeX_files\Capitulo3\Capitulo3.tex
 INPUT .\TeX_files\Capitulo3\Capitulo3.tex
 INPUT TeX_files\Capitulo3\Capitulo3.tex
@@ -278,33 +302,256 @@ INPUT TeX_files\Capitulo3\RequerimientosF.tex
 INPUT .\TeX_files\Capitulo3\NecesidadesUsuario.tex
 INPUT .\TeX_files\Capitulo3\NecesidadesUsuario.tex
 INPUT TeX_files\Capitulo3\NecesidadesUsuario.tex
-INPUT .\grafico_encuesta.png
-INPUT .\grafico_encuesta.png
-INPUT .\grafico_encuesta.png
-INPUT .\grafico_encuesta.png
-INPUT .\grafico_encuesta.png
-INPUT .\grafico_encuesta.png
-INPUT .\grafico_encuesta.png
+INPUT .\Media\grafico_encuesta.png
+INPUT .\Media\grafico_encuesta.png
+INPUT .\Media\grafico_encuesta.png
+INPUT .\Media\grafico_encuesta.png
+INPUT .\Media\grafico_encuesta.png
+INPUT .\Media\grafico_encuesta.png
+INPUT .\Media\grafico_encuesta.png
 INPUT .\TeX_files\Capitulo3\Normativas.tex
 INPUT .\TeX_files\Capitulo3\Normativas.tex
 INPUT TeX_files\Capitulo3\Normativas.tex
+INPUT .\TeX_files\Capitulo4\Capitulo4.tex
+INPUT .\TeX_files\Capitulo4\Capitulo4.tex
+INPUT TeX_files\Capitulo4\Capitulo4.tex
+INPUT .\TeX_files\Capitulo4\Logo Empresarial.tex
+INPUT .\TeX_files\Capitulo4\Logo Empresarial.tex
+INPUT TeX_files\Capitulo4\Logo Empresarial.tex
+INPUT .\Media\Empresa.jpg
+INPUT .\Media\Empresa.jpg
+INPUT .\Media\Empresa.jpg
+INPUT .\Media\Empresa.jpg
+INPUT .\Media\Empresa.jpg
+INPUT .\Media\Empresa.jpg
+INPUT .\TeX_files\Capitulo4\Logo Aplicacion.tex
+INPUT .\TeX_files\Capitulo4\Logo Aplicacion.tex
+INPUT TeX_files\Capitulo4\Logo Aplicacion.tex
+INPUT .\Media\Argos 2.png
+INPUT .\Media\Argos 2.png
+INPUT .\Media\Argos 2.png
+INPUT .\Media\Argos 2.png
+INPUT .\Media\Argos 2.png
+INPUT .\Media\Argos 2.png
+INPUT C:\Program Files\MiKTeX\fonts\tfm\jknappen\ec\ectt1000.tfm
+INPUT .\TeX_files\Capitulo4\Wireframe.tex
+INPUT .\TeX_files\Capitulo4\Wireframe.tex
+INPUT TeX_files\Capitulo4\Wireframe.tex
+INPUT .\Media\Wireframes\Page Main.png
+INPUT .\Media\Wireframes\Page Main.png
+INPUT .\Media\Wireframes\Page Main.png
+INPUT .\Media\Wireframes\Page Main.png
+INPUT .\Media\Wireframes\Page Main.png
+INPUT .\Media\Wireframes\Page Main.png
+INPUT .\Media\Wireframes\Login Student.png
+INPUT .\Media\Wireframes\Login Student.png
+INPUT .\Media\Wireframes\Login Student.png
+INPUT .\Media\Wireframes\Login Student.png
+INPUT .\Media\Wireframes\Login Student.png
+INPUT .\Media\Wireframes\Login Student.png
+INPUT .\Media\Wireframes\Page Student.png
+INPUT .\Media\Wireframes\Page Student.png
+INPUT .\Media\Wireframes\Page Student.png
+INPUT .\Media\Wireframes\Page Student.png
+INPUT .\Media\Wireframes\Page Student.png
+INPUT .\Media\Wireframes\Page Student.png
+INPUT .\Media\Wireframes\Login Teacher.png
+INPUT .\Media\Wireframes\Login Teacher.png
+INPUT .\Media\Wireframes\Login Teacher.png
+INPUT .\Media\Wireframes\Login Teacher.png
+INPUT .\Media\Wireframes\Login Teacher.png
+INPUT .\Media\Wireframes\Login Teacher.png
+INPUT .\Media\Wireframes\Page Teacher.png
+INPUT .\Media\Wireframes\Page Teacher.png
+INPUT .\Media\Wireframes\Page Teacher.png
+INPUT .\Media\Wireframes\Page Teacher.png
+INPUT .\Media\Wireframes\Page Teacher.png
+INPUT .\Media\Wireframes\Page Teacher.png
+INPUT .\Media\Wireframes\Login Parents.png
+INPUT .\Media\Wireframes\Login Parents.png
+INPUT .\Media\Wireframes\Login Parents.png
+INPUT .\Media\Wireframes\Login Parents.png
+INPUT .\Media\Wireframes\Login Parents.png
+INPUT .\Media\Wireframes\Login Parents.png
+INPUT .\Media\Wireframes\Page Parents.png
+INPUT .\Media\Wireframes\Page Parents.png
+INPUT .\Media\Wireframes\Page Parents.png
+INPUT .\Media\Wireframes\Page Parents.png
+INPUT .\Media\Wireframes\Page Parents.png
+INPUT .\Media\Wireframes\Page Parents.png
+INPUT .\Media\Wireframes\Page Loader.png
+INPUT .\Media\Wireframes\Page Loader.png
+INPUT .\Media\Wireframes\Page Loader.png
+INPUT .\Media\Wireframes\Page Loader.png
+INPUT .\Media\Wireframes\Page Loader.png
+INPUT .\Media\Wireframes\Page Loader.png
+INPUT .\TeX_files\Capitulo4\Mockups.tex
+INPUT .\TeX_files\Capitulo4\Mockups.tex
+INPUT TeX_files\Capitulo4\Mockups.tex
+INPUT .\Media\Mockups\Page Main.png
+INPUT .\Media\Mockups\Page Main.png
+INPUT .\Media\Mockups\Page Main.png
+INPUT .\Media\Mockups\Page Main.png
+INPUT .\Media\Mockups\Page Main.png
+INPUT .\Media\Mockups\Page Main.png
+INPUT .\Media\Mockups\Login Student.png
+INPUT .\Media\Mockups\Login Student.png
+INPUT .\Media\Mockups\Login Student.png
+INPUT .\Media\Mockups\Login Student.png
+INPUT .\Media\Mockups\Login Student.png
+INPUT .\Media\Mockups\Login Student.png
+INPUT .\Media\Mockups\Login Teacher.png
+INPUT .\Media\Mockups\Login Teacher.png
+INPUT .\Media\Mockups\Login Teacher.png
+INPUT .\Media\Mockups\Login Teacher.png
+INPUT .\Media\Mockups\Login Teacher.png
+INPUT .\Media\Mockups\Login Teacher.png
+INPUT .\Media\Mockups\Login Parents.png
+INPUT .\Media\Mockups\Login Parents.png
+INPUT .\Media\Mockups\Login Parents.png
+INPUT .\Media\Mockups\Login Parents.png
+INPUT .\Media\Mockups\Login Parents.png
+INPUT .\Media\Mockups\Login Parents.png
+INPUT .\Media\Mockups\Home Student.png
+INPUT .\Media\Mockups\Home Student.png
+INPUT .\Media\Mockups\Home Student.png
+INPUT .\Media\Mockups\Home Student.png
+INPUT .\Media\Mockups\Home Student.png
+INPUT .\Media\Mockups\Home Student.png
+INPUT .\Media\Mockups\Attendance Student.png
+INPUT .\Media\Mockups\Attendance Student.png
+INPUT .\Media\Mockups\Attendance Student.png
+INPUT .\Media\Mockups\Attendance Student.png
+INPUT .\Media\Mockups\Attendance Student.png
+INPUT .\Media\Mockups\Attendance Student.png
+INPUT .\Media\Mockups\Profile Student.png
+INPUT .\Media\Mockups\Profile Student.png
+INPUT .\Media\Mockups\Profile Student.png
+INPUT .\Media\Mockups\Profile Student.png
+INPUT .\Media\Mockups\Profile Student.png
+INPUT .\Media\Mockups\Profile Student.png
+INPUT .\Media\Mockups\Chats.png
+INPUT .\Media\Mockups\Chats.png
+INPUT .\Media\Mockups\Chats.png
+INPUT .\Media\Mockups\Chats.png
+INPUT .\Media\Mockups\Chats.png
+INPUT .\Media\Mockups\Chats.png
+INPUT .\Media\Mockups\Attendance Pass.png
+INPUT .\Media\Mockups\Attendance Pass.png
+INPUT .\Media\Mockups\Attendance Pass.png
+INPUT .\Media\Mockups\Attendance Pass.png
+INPUT .\Media\Mockups\Attendance Pass.png
+INPUT .\Media\Mockups\Attendance Pass.png
+INPUT .\Media\Mockups\Attendance Summary.png
+INPUT .\Media\Mockups\Attendance Summary.png
+INPUT .\Media\Mockups\Attendance Summary.png
+INPUT .\Media\Mockups\Attendance Summary.png
+INPUT .\Media\Mockups\Attendance Summary.png
+INPUT .\Media\Mockups\Attendance Summary.png
+INPUT .\Media\Mockups\Profile Teacher.png
+INPUT .\Media\Mockups\Profile Teacher.png
+INPUT .\Media\Mockups\Profile Teacher.png
+INPUT .\Media\Mockups\Profile Teacher.png
+INPUT .\Media\Mockups\Profile Teacher.png
+INPUT .\Media\Mockups\Profile Teacher.png
+INPUT .\Media\Mockups\Child registration.png
+INPUT .\Media\Mockups\Child registration.png
+INPUT .\Media\Mockups\Child registration.png
+INPUT .\Media\Mockups\Child registration.png
+INPUT .\Media\Mockups\Child registration.png
+INPUT .\Media\Mockups\Child registration.png
+INPUT .\Media\Mockups\Attendance report.png
+INPUT .\Media\Mockups\Attendance report.png
+INPUT .\Media\Mockups\Attendance report.png
+INPUT .\Media\Mockups\Attendance report.png
+INPUT .\Media\Mockups\Attendance report.png
+INPUT .\Media\Mockups\Attendance report.png
+INPUT .\Media\Mockups\Page Loader.png
+INPUT .\Media\Mockups\Page Loader.png
+INPUT .\Media\Mockups\Page Loader.png
+INPUT .\Media\Mockups\Page Loader.png
+INPUT .\Media\Mockups\Page Loader.png
+INPUT .\Media\Mockups\Page Loader.png
+INPUT .\TeX_files\Capitulo4\MapaNavegacion.tex
+INPUT .\TeX_files\Capitulo4\MapaNavegacion.tex
+INPUT TeX_files\Capitulo4\MapaNavegacion.tex
+INPUT .\Media\MapaNavegacionpng.png
+INPUT .\Media\MapaNavegacionpng.png
+INPUT .\Media\MapaNavegacionpng.png
+INPUT .\Media\MapaNavegacionpng.png
+INPUT .\Media\MapaNavegacionpng.png
+INPUT .\Media\MapaNavegacionpng.png
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmr9.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmmi9.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmsy9.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmex9.tfm
+INPUT .\TeX_files\Capitulo 5\Capitulo 5.tex
+INPUT .\TeX_files\Capitulo 5\Capitulo 5.tex
+INPUT TeX_files\Capitulo 5\Capitulo 5.tex
+INPUT .\TeX_files\Capitulo 5\Pruebas de Usabilidad.tex
+INPUT .\TeX_files\Capitulo 5\Pruebas de Usabilidad.tex
+INPUT TeX_files\Capitulo 5\Pruebas de Usabilidad.tex
+INPUT .\Media\p1.png
+INPUT .\Media\p1.png
+INPUT .\Media\p1.png
+INPUT .\Media\p1.png
+INPUT .\Media\p1.png
+INPUT .\Media\p1.png
+INPUT .\Media\p1.png
+INPUT .\Media\p2.png
+INPUT .\Media\p2.png
+INPUT .\Media\p2.png
+INPUT .\Media\p2.png
+INPUT .\Media\p2.png
+INPUT .\Media\p2.png
+INPUT .\Media\p2.png
+INPUT .\Media\p3.png
+INPUT .\Media\p3.png
+INPUT .\Media\p3.png
+INPUT .\Media\p3.png
+INPUT .\Media\p3.png
+INPUT .\Media\p3.png
+INPUT .\Media\p3.png
+INPUT .\Media\Circulo.png
+INPUT .\Media\Circulo.png
+INPUT .\Media\Circulo.png
+INPUT .\Media\Circulo.png
+INPUT .\Media\Circulo.png
+INPUT .\Media\Circulo.png
+INPUT .\Media\Circulo.png
+INPUT .\Media\Barras.png
+INPUT .\Media\Barras.png
+INPUT .\Media\Barras.png
+INPUT .\Media\Barras.png
+INPUT .\Media\Barras.png
+INPUT .\Media\Barras.png
+INPUT .\Media\Barras.png
+INPUT .\TeX_files\Capitulo 5\Pruebas Proyecto.tex
+INPUT .\TeX_files\Capitulo 5\Pruebas Proyecto.tex
+INPUT TeX_files\Capitulo 5\Pruebas Proyecto.tex
 INPUT main.aux
 INPUT .\main.out
 INPUT .\main.out
+INPUT C:\Users\edwin\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ectt1000.pk
+INPUT C:\Users\edwin\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ectt1000.pk
+INPUT C:\Users\edwin\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecbi1000.pk
+INPUT C:\Users\edwin\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecbi1000.pk
 INPUT C:\Users\edwin\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm0900.pk
 INPUT C:\Users\edwin\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm0900.pk
 INPUT C:\Users\edwin\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx0900.pk
 INPUT C:\Users\edwin\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx0900.pk
-INPUT C:\Users\edwin\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm0800.pk
-INPUT C:\Users\edwin\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm0800.pk
 INPUT C:\Users\edwin\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx0800.pk
 INPUT C:\Users\edwin\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx0800.pk
-INPUT C:\Users\edwin\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecsl1000.pk
-INPUT C:\Users\edwin\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecsl1000.pk
+INPUT C:\Users\edwin\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm0800.pk
+INPUT C:\Users\edwin\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm0800.pk
 INPUT C:\Users\edwin\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx2074.pk
 INPUT C:\Users\edwin\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx2074.pk
+INPUT C:\Users\edwin\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecsl1000.pk
+INPUT C:\Users\edwin\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecsl1000.pk
 INPUT C:\Users\edwin\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\eccc1000.pk
 INPUT C:\Users\edwin\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\eccc1000.pk
+INPUT C:\Users\edwin\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecti1000.pk
+INPUT C:\Users\edwin\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecti1000.pk
 INPUT C:\Users\edwin\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1000.pk
 INPUT C:\Users\edwin\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1000.pk
 INPUT C:\Users\edwin\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1000.pk
@@ -321,7 +568,15 @@ INPUT C:\Users\edwin\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecb
 INPUT C:\Users\edwin\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx2488.pk
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi10.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi10.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi7.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi7.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmr10.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmr10.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmr7.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmr7.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy10.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy10.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy7.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy7.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy9.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy9.pfb

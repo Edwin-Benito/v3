@@ -7,8 +7,6 @@ El "Paso Hacia Atrás" (Backward Pass) se utiliza para determinar la Fecha de Fi
     \item \textbf{LS (Fecha de Inicio Tardía):} La fecha más tardía en que una actividad puede comenzar sin retrasar el proyecto. Se calcula como $LS = LF - Duración$.
 \end{itemize}
 
-El LF de la última actividad (Presentación del Proyecto) es igual a su EF (85 días).
-
 \begin{table}[htbp]
   \centering
   \caption{Cálculos de LS y LF (Paso Hacia Atrás)}
@@ -19,13 +17,13 @@ El LF de la última actividad (Presentación del Proyecto) es igual a su EF (85 
     \toprule
     \rowcolor{gray!30} \textbf{ID} & \textbf{Actividad} & \textbf{Duración (Días)} & \textbf{Sucesores} & \textbf{LF} & \textbf{LS} \\
     \midrule
-    G & Presentación del Proyecto & 10 & -- & 105 & 95 \\
-    E & Pruebas Usabilidad & 10 & G & 95 & 85 \\
-    F & Validación de Entregables & 10 & G & 95 & 85 \\
-    D & Revisión de Documentación & 10 & E, F & 85 & 75 \\
-    C & Diseño de Interfaz de Usuario & 30 & D & 75 & 45 \\
-    B & Recolección de Requerimientos & 20 & C & 45 & 25 \\
-    A & Análisis del Problema & 25 & B & 25 & 0 \\
+      G & Presentación del Proyecto & 5 & --- & 90 & 85 \\
+        E & Pruebas Usabilidad & 10 & G & 85 & 75 \\
+        F & Validación de Entregables & 10 & G & 85 & 75 \\
+        D & Revisión de Documentación & 5 & E, F & 75 & 70 \\
+        C & Diseño de Interfaz de Usuario & 30 & D & 70 & 40 \\
+        B & Recolección de Requerimientos & 20 & C & 40 & 20 \\
+        A & Análisis del Problema & 20 & B & 20 & 0 \\
     \bottomrule
   \end{tabularx}
 \end{table}

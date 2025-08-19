@@ -17,16 +17,17 @@ El "Paso Hacia Adelante" (Forward Pass) se utiliza para determinar la Fecha de I
     \toprule
     \rowcolor{gray!30} \textbf{ID} & \textbf{Actividad} & \textbf{Duración (Días)} & \textbf{Predecesoras} & \textbf{ES} & \textbf{EF} \\
     \midrule
-    A & Análisis del Problema & 25 & -- & 0 & 25 \\
-    B & Recolección de Requerimientos & 20 & A & 25 & 45 \\
-    C & Diseño de Interfaz de Usuario & 30 & B & 45 & 75 \\
-    D & Revisión de Documentación & 10 & C & 75 & 85 \\
-    E & Pruebas Usabilidad & 10 & D & 85 & 95 \\
-    F & Validación de Entregables & 10 & D & 85 & 95 \\
-    G & Presentación del Proyecto & 10 & E, F & 95 & 105 \\
+      A & Análisis del Problema & 20 & --- & 0 & 20 \\
+        B & Recolección de Requerimientos & 20 & A & 20 & 40 \\
+        C & Diseño de Interfaz de Usuario & 30 & B & 40 & 70 \\
+        D & Revisión de Documentación & 5 & C & 70 & 75 \\
+        E & Pruebas Usabilidad & 10 & D & 75 & 85 \\
+        F & Validación de Entregables & 10 & D & 75 & 85 \\
+        G & Presentación del Proyecto & 5 & E, F & 85 & 90 \\
     \bottomrule
   \end{tabularx}
   \vspace{0.7em}
-  \noindent\textbf{Duración Total del Proyecto (calculada con ES/EF):} El proyecto tiene una duración estimada de \textbf{17 semanas}.
-\noindent\textbf{Duración Total del Proyecto (calculada con ES/EF):} El proyecto tiene una duración estimada de \textbf{105 días hábiles}.
+  \noindent\textbf{Duración real (ES/EF):} 10 semanas hábiles (50 días) en 11 semanas calendario.\\
+  \noindent\textbf{Esfuerzo total:} 100 días hábiles.\\
+  \noindent\textbf{Nota:} 100 días = esfuerzo; 10 semanas = duración por trabajo en paralelo.
 \end{table}

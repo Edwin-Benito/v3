@@ -1,7 +1,7 @@
 \section{Ruta Crítica del Proyecto}
 
 \subsection{Tabla de Actividades del Proyecto}
-Esta tabla desglosa las actividades principales del proyecto, sus duraciones estimadas en días y las dependencias entre ellas. Se considera que cada semana equivale a 5 días hábiles. Las dependencias indican qué actividades deben completarse antes de que otra pueda comenzar.
+Esta tabla desglosa las actividades principales del proyecto, sus duraciones estimadas en días y las dependencias entre ellas. Se considera que cada semana equivale a 5 días hábiles. La suma de las duraciones es de 100 días hábiles (esfuerzo total), pero la duración real del proyecto, determinada por la ruta crítica y el diagrama de Gantt, es de 10 semanas hábiles (50 días), distribuidas a lo largo de 11 semanas calendario. Las dependencias indican qué actividades deben completarse antes de que otra pueda comenzar.
 
 \begin{table}[htbp]
   \centering
@@ -13,13 +13,15 @@ Esta tabla desglosa las actividades principales del proyecto, sus duraciones est
     \toprule
     \rowcolor{gray!30} \textbf{ID} & \textbf{Actividad} & \textbf{Duración (Días)} & \textbf{Predecesoras} \\
     \midrule
-    A & Análisis del Problema & 25 & -- \\
+  A & Análisis del Problema & 20 & --- \\
     B & Recolección de Requerimientos & 20 & A \\
     C & Diseño de Interfaz de Usuario & 30 & B \\
-    D & Revisión de Documentación & 10 & C \\
+    D & Revisión de Documentación & 5 & C \\
     E & Pruebas Usabilidad & 10 & D \\
     F & Validación de Entregables & 10 & D \\
-    G & Presentación del Proyecto & 10 & E, F \\
+    G & Presentación del Proyecto & 5 & E, F \\
     \bottomrule
   \end{tabularx}
 \end{table}
+\vspace{0.7em}
+\noindent\textbf{Nota:} Aunque la suma de las duraciones de las actividades es 100 días hábiles, el proyecto se ejecuta realmente en 10 semanas hábiles (50 días), con un horizonte de 11 semanas calendario, debido al paralelismo entre actividades.
